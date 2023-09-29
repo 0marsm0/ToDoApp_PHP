@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 25px;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+
+/* NAV STYLES */
+.nav {
+    padding: 15px 30px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-list-elem {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nav-list-elem-link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+
+
+
+
+
+.main__content {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.main__content-elem img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
