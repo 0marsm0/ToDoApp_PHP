@@ -14,7 +14,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])) {
 
     if(!empty($user)) {
         $_SESSION['auth'] = true;
-        $_SESSION['email'] = $user['email'];
+        $_SESSION['id'] = $user['id'];
         $_SESSION['name'] = $user['name'];
         header('Location: index.php');
     } else {
