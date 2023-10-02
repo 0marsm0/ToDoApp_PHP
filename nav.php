@@ -4,7 +4,7 @@
             <a class="nav-link active" aria-current="page" href="#">home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link <?php if(empty($_SESSION['auth'])) : ?> disabled <?php endif;?>" href="#">list</a>
+            <a class="nav-link <?php if(empty($_SESSION['auth'])) : ?> disabled <?php endif;?>" href="list.php">list</a>
         </li>
         <li class="nav-item">
             <a class="nav-link <?php if(empty($_SESSION['auth'])) : ?> disabled <?php endif;?>" href="#">profile</a>
